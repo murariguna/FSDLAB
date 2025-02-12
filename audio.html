@@ -1,107 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audio Page with Multiple Songs</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        text-align: center;
-        padding: 20px;
-      }
+    <title>Song Playlist</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: white; text-align: center; padding: 20px;">
+<div>
+    <img src="C:\Users\LAB2\Downloads\Spotify Landing Page.jfif" alt="Audio Playlist" style="width: 100%; max-width: 600px; margin-bottom: 20px;"><br>
+    <br></div>
+        <div style="height: 50px;"></div>
 
-      .song-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        margin-top: 30px;
-      }
-
-      .song {
-        background-color: #2c3e50;
-        color: #ecf0f1;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-
-      .song h3 {
-        font-size: 20px;
-      }
-
-      audio {
-        width: 100%;
-        margin-top: 10px;
-      }
-
-      .song-title {
-        margin-bottom: 15px;
-      }
-    </style>
-  </head>
-  <body>
-
-    <h1>Welcome to the Audio Page</h1>
-    <p>Enjoy our selection of songs below.</p>
-
-    <div class="song-list">
-      <!-- Song 1 -->
-      <div class="song">
-        <div class="song-title">
-          <h3>Song 1: "Song Title 1"</h3>
-        </div>
-        <audio controls>
-          <source src="song1.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-
-      <!-- Song 2 -->
-      <div class="song">
-        <div class="song-title">
-          <h3>Song 2: "Song Title 2"</h3>
-        </div>
-        <audio controls>
-          <source src="song2.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-
-      <!-- Song 3 -->
-      <div class="song">
-        <div class="song-title">
-          <h3>Song 3: "Song Title 3"</h3>
-        </div>
-        <audio controls>
-          <source src="song3.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-
-      <!-- Song 4 -->
-      <div class="song">
-        <div class="song-title">
-          <h3>Song 4: "Song Title 4"</h3>
-        </div>
-        <audio controls>
-          <source src="song4.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-
-      <!-- Song 5 -->
-      <div class="song">
-        <div class="song-title">
-          <h3>Song 5: "Song Title 5"</h3>
-        </div>
-        <audio controls>
-          <source src="song5.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
+    <div style="width: 250px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);">
+        <ul style="list-style: none; padding: 0;">
+            <li><strong>Song 1</strong><br><audio controls style="width: 100%;"><source src="C:\Users\LAB2\Downloads\WhatsApp Audio 2025-02-05 at 10.00.38 AM.mpeg" type="audio/mpeg"></audio></li>
+            <li><strong>Song 2</strong><br><audio controls style="width: 100%;"><source src="C:\Users\LAB2\Downloads\WhatsApp Audio 2025-02-05 at 10.00.37 AM (1).mpeg" type="audio/mpeg"></audio></li>
+            <li><strong>Song 3</strong><br><audio controls style="width: 100%;"><source src="C:\Users\LAB2\Downloads\WhatsApp Audio 2025-02-05 at 10.00.37 AM.mpeg" type="audio/mpeg"></audio></li>
+        </ul>
     </div>
-
-  </body>
+</body>
 </html>
+
+
